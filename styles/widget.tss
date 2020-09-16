@@ -1,0 +1,28 @@
+'#ButtomSheetView' : {
+  width : 0,
+  height: 0
+}
+'#ContentBox' : {
+  width          : Ti.UI.FILL,
+  height         : '500',
+  backgroundColor: 'white',
+  borderRadius   : 15,
+  bottom         : -515
+}
+'#Overlay' : {
+  width          : Ti.UI.FILL,
+  height         : Ti.UI.FILL,
+  backgroundColor: 'black',
+  opacity        : 0.3
+}
+'#ContentBoxHolder' : {
+  left : 10,
+  top  : 20,
+  right: 10
+}
+'#ContentBoxHolder[platform=ios]' : {
+  bottom: 30
+}
+'#ContentBoxHolder[platform=android]' : {
+  bottom: 10
+}

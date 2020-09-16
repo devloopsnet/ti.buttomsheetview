@@ -1,0 +1,8 @@
+<Alloy>
+  <View id="ButtomSheetView">
+    <View id="Overlay"></View>
+    <View id="ContentBox">
+      <View id="ContentBoxHolder"></View>
+    </View>
+  </View>
+</Alloy>
