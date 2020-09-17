@@ -1,13 +1,13 @@
 {
   "id": "ti.buttomsheetview",
   "name": "Ti.ButtomSheetView",
-  "description": "A customizable pop up view with translucent background",
+  "description": "Ti.ButtomSheetView is an ios and android widget which provides an android-like ButtomSheet behavior",
   "author": "Abdullah Al-Faqeir <abdullah@devloops.net>",
   "version": "1.0",
   "copyright": "Copyright (c) 2020",
   "license": "Apache License",
   "min-alloy-version": "1.0",
   "min-titanium-version": "3.1",
-  "tags": "",
+  "tags": "buttomsheet,buttomsheetview",
   "platforms": "android,ios"
 }
