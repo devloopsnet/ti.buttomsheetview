@@ -61,6 +61,14 @@ There are no required options to pass via TSS properties or XML attributes, yet 
 | --------- | ---- | ----------- |
 | contentBoxHeight | `30%` | The height of the content box |
 
+## Events
+
+| Name  | Usage |
+| ---------  | ----------- |
+| opened     | When the buttomsheet is shown and the animation is done |
+| closed     | When the buttomsheet is hidden and the animation is done |
+
+
 ## Methods
 You can also manually trigger the show, hide and expand event of the widget.
 
