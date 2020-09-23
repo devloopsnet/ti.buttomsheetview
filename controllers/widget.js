@@ -96,8 +96,14 @@ $.addEventListener = function(event, callback) {
 };
 
 $.setViews = function(views) {
-  $.ContentBox.add(views);
-}
+  for (var i = 0, j = views.length; i < j; i++) {
+    $.ContentBoxHolder.add(views[i]);
+  }
+};
+
+$.clearViews = function() {
+  $.ContentBoxHolder.removeAllChildren();
+};
 
 $.expand = function() {
   expandContentBox()
@@ -105,8 +111,8 @@ $.expand = function() {
 
 $.show = function() {
   showContentBox();
-}
+};
 
 $.hide = function() {
   hideContentBox();
-}
+};
