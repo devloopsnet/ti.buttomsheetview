@@ -3,7 +3,7 @@
   "name": "Ti.ButtomSheetView",
   "description": "Ti.ButtomSheetView is an ios and android widget which provides an android-like ButtomSheet behavior",
   "author": "Abdullah Al-Faqeir <abdullah@devloops.net>",
-  "version": "1.0",
+  "version": "1.1",
   "copyright": "Copyright (c) 2020",
   "license": "Apache License",
   "min-alloy-version": "1.0",
