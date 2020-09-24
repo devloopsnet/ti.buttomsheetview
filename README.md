@@ -78,6 +78,8 @@ You can also manually trigger the show, hide and expand event of the widget.
 | hide       |          | To hide the buttom sheet view |
 | exapnd     |          | To expand the ContentBox to fit the view 100% |
 | setViews   | `array`  | To set the child views of the ContentBox |
+| clearViews |          | To clear the child views of the ContentBox |
+
 
 
 ## Changelog
